@@ -6,13 +6,13 @@
 	url = https://github.com/g-truc/glm
 [submodule "MyRevoke/vendor/imgui"]
 	path = MyRevoke/vendor/imgui
-	url = git@github.com:Revokeeee/imgui.git
+	url = https://github.com/Revokeeee/imgui.git
 [submodule "MyRevoke/vendor/GLFW"]
 	path = MyRevoke/vendor/GLFW
 	url = git@github.com:Revokeeee/glfw.git
 [submodule "MyRevoke/vendor/yaml-cpp"]
 	path = MyRevoke/vendor/yaml-cpp
-	url = https://github.com/Revokeeee/yaml-cpp
+	url = https://github.com/Revokeeee/glfw.git
 [submodule "MyRevoke/vendor/ImGuizmo"]
 	path = MyRevoke/vendor/ImGuizmo
 	url = https://github.com/Revokeeee/ImGuizmo
