@@ -259,6 +259,7 @@ workspace "MyRevoke"
         kind "SharedLib"
         language "C#"
         dotnetframework "4.7.2"
+        staticruntime "off"
 
         targetdir ("RevokeCraft/resourses/scripts/C#")
         objdir ("RevokeCraft/resourses/scripts/C#/intermediates")

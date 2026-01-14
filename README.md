@@ -21,11 +21,11 @@ Honestly? i wanted to see what it’s like to build a little engine from scratch, 
 
 - **Language:** Good old C++
 - **Libraries:**
-  - [Box2D](https://github.com/Revokeeee/box2d) for physics 
-  - [GLFW](https://github.com/Revokeeee/glfw) for windowing 
-  - [ImGui](https://github.com/Revokeeee/imgui) for the UI (because making my own would be a nightmare)
-  - [yaml-cpp](https://github.com/Revokeeee/yaml-cpp) for serialization (saving/loading stuff)
-  - [GLAD](https://github.com/Revokeeee/GLAD) for OpenGL loading 
+  - [Box2D](https://github.com/erincatto/box2d) for physics 
+  - [GLFW](https://github.com/glfw/glfw for windowing 
+  - [ImGui](https://github.com/ocornut/imgui) for the UI (because making my own would be a nightmare)
+  - [yaml-cpp](https://github.com/jbeder/yaml-cpp) for serialization (saving/loading stuff)
+  - [GLAD](https://github.com/Dav1dde/glad) for OpenGL loading 
 
 ## How do I build this thing?
 
