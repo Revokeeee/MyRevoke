@@ -339,6 +339,11 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
+# Custom ignore rules
+!MyRevoke/vendor/OpenALBuild/**
+!MyRevoke/vendor/libsndfile/**
+!MyRevoke/vendor/mono/**
+
 
 /bin-int/
 /obj/
