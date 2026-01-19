@@ -64,8 +64,10 @@ Right now, MyRevoke is more of a sandbox than a finished product, but here’s wha
 Here are a few screenshots to give you an idea of what’s possible (or at least what it looks like when it’s working):  
 
 ![Screenshot of MyRevoke](media/screanshot.png)  
-![GIF of scene creation](media/gif1.gif)  
-![GIF of physics simulation](media/gif2.gif)  
+
+![GIF of scene creation](<div align="center" style="font-size: larger;">media/gif1.gif</div>)  
+
+![GIF of physics simulation](<div align="center" style="font-size: larger;">media/gif2.gif</div>)  
 
 ## What’s the approach?
 
