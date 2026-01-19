@@ -1,5 +1,26 @@
 Scene: Sound Test
 Entities:
+  - Entity: 215629593573124158
+    TagComponent:
+      Tag: Empty Entity
+    TransformComponent:
+      Position: [0.985532522, 5.75756598, 0]
+      Rotation: [0, 0, 0.717508674]
+      Scale: [0.999999881, 0.999999881, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture2D: assets\Textures\Triangle.png
+    RigidBodyComponent:
+      BodyType: 2
+      IsRotating: true
+    BoxColisionComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restriction: 0
+      ResitutionTreshhold: 0.5
+      isSensor: false
   - Entity: 12705655090242639925
     TagComponent:
       Tag: Floor
@@ -25,9 +46,9 @@ Entities:
     TagComponent:
       Tag: Object
     TransformComponent:
-      Position: [1.69729722, 3.09028029, 6.10351562e-05]
-      Rotation: [-3.14159226, 4.26325641e-14, -1.57051229]
-      Scale: [2.12035108, 2.53950906, 0.200000003]
+      Position: [2.06549168, 4.14119244, 6.1179031e-05]
+      Rotation: [-3.14159226, -9.10763376e-08, -1.30678165]
+      Scale: [0.954158843, 1.14277911, 0.089999944]
     SpriteRendererComponent:
       Color: [0.650519013, 0.230392143, 0.691176474, 1]
       Texture2D: assets\Textures\Square1_Texture.png
@@ -55,7 +76,7 @@ Entities:
     TagComponent:
       Tag: Camera
     TransformComponent:
-      Position: [0.018136315, 2.4861207, 14.9471769]
+      Position: [-0.582000017, 2.4861207, 14.9471769]
       Rotation: [-5.84590737e-07, 0.0017939806, 1.18017181e-06]
       Scale: [1.00000119, 1, 1.00000119]
     CameraComponent:
@@ -83,3 +104,45 @@ Entities:
       Position: [0, 0, 0]
       Velocity: [0, 0, 0]
       LoopSound: true
+  - Entity: 12937164743127915033
+    TagComponent:
+      Tag: Empty Entity
+    TransformComponent:
+      Position: [-0.00561744161, 4.41539097, 0]
+      Rotation: [0, 0, -0.722329974]
+      Scale: [1.04529703, 0.999998927, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture2D: assets\Textures\floor.jfif
+    RigidBodyComponent:
+      BodyType: 2
+      IsRotating: false
+    BoxColisionComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restriction: 0
+      ResitutionTreshhold: 0.5
+      isSensor: false
+  - Entity: 12114995665293627556
+    TagComponent:
+      Tag: Empty Entity
+    TransformComponent:
+      Position: [0, 7.26255178, 0]
+      Rotation: [0, 0, 0]
+      Scale: [2.02005839, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture2D: assets\Textures\block.png
+    RigidBodyComponent:
+      BodyType: 2
+      IsRotating: true
+    BoxColisionComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restriction: 0
+      ResitutionTreshhold: 0.5
+      isSensor: false

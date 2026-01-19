@@ -22,7 +22,7 @@ Honestly? i wanted to see what it’s like to build a little engine from scratch, 
 - **Language:** Good old C++
 - **Libraries:**
   - [Box2D](https://github.com/erincatto/box2d) for physics 
-  - [GLFW](https://github.com/glfw/glfw for windowing 
+  - [GLFW](https://github.com/glfw/glfw) for windowing 
   - [ImGui](https://github.com/ocornut/imgui) for the UI (because making my own would be a nightmare)
   - [yaml-cpp](https://github.com/jbeder/yaml-cpp) for serialization (saving/loading stuff)
   - [GLAD](https://github.com/Dav1dde/glad) for OpenGL loading 
@@ -33,7 +33,7 @@ So you want to try it out? Here’s how you can use the project:
 
 **Clone the repo** (with submodules!)
    ```bash
-   git clone --recurse-submodules https://github.com/Revokeeee/MyRevoke.git
+   git clone --recursive https://github.com/Revokeeee/MyRevoke.git
    ```
 
  **Use existing .exe file.** Go into RevokeCraft folder and run the .exe file and see how long can you go without crashes (my record is 2 minutes) 
@@ -59,11 +59,13 @@ Right now, MyRevoke is more of a sandbox than a finished product, but here’s wha
 - **UI experiments:** Play around with the ImGui-based interface to see what’s possible.
 - **Save and load scenes:** Save your creations and load them back up later.
 
-### Screenshots
+### Screenshots  
 
-Here are a few screenshots to give you an idea of what’s possible (or at least what it looks like when it’s working):
+Here are a few screenshots to give you an idea of what’s possible (or at least what it looks like when it’s working):  
 
-*I will add it later :)
+![Screenshot of MyRevoke](media/screanshot.png)  
+![GIF of scene creation](media/gif1.gif)  
+![GIF of physics simulation](media/gif2.gif)  
 
 ## What’s the approach?
 
