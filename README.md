@@ -65,9 +65,13 @@ Here are a few screenshots to give you an idea of what’s possible (or at least w
 
 ![Screenshot of MyRevoke](media/screanshot.png)  
 
-![GIF of scene creation](<div align="center" style="font-size: larger;">media/gif1.gif</div>)  
+<div align="center">
+  <img src="media/gif1.gif" alt="GIF of scene creation" width="600">
+</div>
 
-![GIF of physics simulation](<div align="center" style="font-size: larger;">media/gif2.gif</div>)  
+<div align="center">
+  <img src="media/gif2.gif" alt="GIF of physics simulation" width="600">
+</div>
 
 ## What’s the approach?
 
